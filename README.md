@@ -1,5 +1,7 @@
 git fetch origin                                               
 
+#로컬 변경 사항을 보존하고 병합하려면 (충돌 가능성 있음)
+
 git merge origin/main --allow-unrelated-histories
 
 
